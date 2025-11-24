@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PreferenceCell" id="gTV-IL-0wX" customClass="PreferenceCell" customModule="Luxy_Driver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="148" height="191"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="148" height="191"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sCl-D0-gbg">
+                        <rect key="frame" x="8" y="8" width="132" height="175"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unchecked" translatesAutoresizingMaskIntoConstraints="NO" id="x9J-d2-KCQ">
+                                <rect key="frame" x="100" y="8" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="F6K-cA-vIS"/>
+                                    <constraint firstAttribute="height" constant="24" id="Xaj-CW-J4K"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car" translatesAutoresizingMaskIntoConstraints="NO" id="Alf-by-Qa5">
+                                <rect key="frame" x="16" y="28" width="100" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="aiE-58-GWa"/>
+                                    <constraint firstAttribute="width" constant="100" id="ygy-X0-vq4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="e-Sedan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEg-ky-MHI">
+                                <rect key="frame" x="20" y="136.66666666666669" width="92" height="16.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Passenger : 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTF-ev-huj">
+                                <rect key="frame" x="36.333333333333343" y="157.33333333333337" width="59.666666666666657" height="13.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Alf-by-Qa5" firstAttribute="centerX" secondItem="sCl-D0-gbg" secondAttribute="centerX" id="3Ws-vO-yms"/>
+                            <constraint firstItem="TTF-ev-huj" firstAttribute="centerX" secondItem="sCl-D0-gbg" secondAttribute="centerX" id="DgO-iD-hEM"/>
+                            <constraint firstItem="WEg-ky-MHI" firstAttribute="leading" secondItem="sCl-D0-gbg" secondAttribute="leading" constant="20" id="RVM-8i-KKb"/>
+                            <constraint firstItem="Alf-by-Qa5" firstAttribute="top" secondItem="sCl-D0-gbg" secondAttribute="top" constant="28" id="TJk-VH-286"/>
+                            <constraint firstItem="x9J-d2-KCQ" firstAttribute="top" secondItem="sCl-D0-gbg" secondAttribute="top" constant="8" id="WBo-2A-4Gh"/>
+                            <constraint firstItem="WEg-ky-MHI" firstAttribute="top" secondItem="Alf-by-Qa5" secondAttribute="bottom" constant="15" id="WuR-u1-dHe"/>
+                            <constraint firstAttribute="bottom" secondItem="TTF-ev-huj" secondAttribute="bottom" constant="4" id="cLU-qS-uYL"/>
+                            <constraint firstAttribute="trailing" secondItem="WEg-ky-MHI" secondAttribute="trailing" constant="20" id="od8-dr-jRe"/>
+                            <constraint firstItem="TTF-ev-huj" firstAttribute="top" secondItem="WEg-ky-MHI" secondAttribute="bottom" constant="4" id="ole-Oa-GE6"/>
+                            <constraint firstAttribute="trailing" secondItem="x9J-d2-KCQ" secondAttribute="trailing" constant="8" id="vXb-fW-rtI"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="1" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.0" alpha="0.50434297360000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="sCl-D0-gbg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Gek-KE-rLY"/>
+                <constraint firstItem="sCl-D0-gbg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="c54-fy-g9C"/>
+                <constraint firstAttribute="trailing" secondItem="sCl-D0-gbg" secondAttribute="trailing" constant="8" id="gMh-JR-zlf"/>
+                <constraint firstAttribute="bottom" secondItem="sCl-D0-gbg" secondAttribute="bottom" constant="8" id="iYG-Zl-nU9"/>
+            </constraints>
+            <size key="customSize" width="148" height="191"/>
+            <connections>
+                <outlet property="check_Img" destination="x9J-d2-KCQ" id="M3D-X1-MmW"/>
+                <outlet property="lbl_Passenger" destination="TTF-ev-huj" id="vnh-du-E1v"/>
+                <outlet property="lbl_VehicleName" destination="WEg-ky-MHI" id="G0x-hw-Gyd"/>
+                <outlet property="vehicle_Img" destination="Alf-by-Qa5" id="CvQ-4w-F0c"/>
+            </connections>
+            <point key="canvasLocation" x="155.72519083969465" y="26.408450704225352"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Unchecked" width="64" height="64"/>
+        <image name="car" width="203" height="135"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

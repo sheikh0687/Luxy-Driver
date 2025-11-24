@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SavedCarCell" rowHeight="137" id="KGk-i7-Jjw" customClass="SavedCarCell" customModule="Luxy_Driver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="137"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="137"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qSc-gC-nyq">
+                        <rect key="frame" x="8" y="8" width="304" height="121"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="afX-SJ-vSt">
+                                <rect key="frame" x="8" y="15" width="100" height="91"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="sVh-x1-Hbh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AUDI Model A1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgP-gm-xmm">
+                                <rect key="frame" x="118" y="10" width="86" height="61"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nF-OK-Vnv">
+                                <rect key="frame" x="214" y="81" width="80" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1vX-N5-3U3"/>
+                                    <constraint firstAttribute="width" constant="80" id="NCT-Ez-4BB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btn_DeleteCar:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9dj-Mf-rvM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2nF-OK-Vnv" firstAttribute="leading" secondItem="jgP-gm-xmm" secondAttribute="trailing" constant="10" id="0x5-5M-Xbj"/>
+                            <constraint firstAttribute="bottom" secondItem="afX-SJ-vSt" secondAttribute="bottom" constant="15" id="1U7-yP-1pV"/>
+                            <constraint firstItem="jgP-gm-xmm" firstAttribute="top" secondItem="qSc-gC-nyq" secondAttribute="top" constant="10" id="6ca-Qp-wVp"/>
+                            <constraint firstItem="afX-SJ-vSt" firstAttribute="top" secondItem="qSc-gC-nyq" secondAttribute="top" constant="15" id="MIG-gJ-Z16"/>
+                            <constraint firstItem="2nF-OK-Vnv" firstAttribute="top" secondItem="jgP-gm-xmm" secondAttribute="bottom" constant="10" id="d7d-aw-sbU"/>
+                            <constraint firstAttribute="bottom" secondItem="2nF-OK-Vnv" secondAttribute="bottom" constant="10" id="frE-IM-9m1"/>
+                            <constraint firstItem="jgP-gm-xmm" firstAttribute="leading" secondItem="afX-SJ-vSt" secondAttribute="trailing" constant="10" id="nZH-Jn-aPh"/>
+                            <constraint firstItem="afX-SJ-vSt" firstAttribute="leading" secondItem="qSc-gC-nyq" secondAttribute="leading" constant="8" id="o6H-JS-XOq"/>
+                            <constraint firstAttribute="trailing" secondItem="2nF-OK-Vnv" secondAttribute="trailing" constant="10" id="oce-Jz-hcK"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="1" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="qSc-gC-nyq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="1I1-uL-0C7"/>
+                    <constraint firstItem="qSc-gC-nyq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="8qB-zy-Hoh"/>
+                    <constraint firstAttribute="trailing" secondItem="qSc-gC-nyq" secondAttribute="trailing" constant="8" id="aC3-J4-ngq"/>
+                    <constraint firstAttribute="bottom" secondItem="qSc-gC-nyq" secondAttribute="bottom" constant="8" id="pss-RE-Hcq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="carImg" destination="afX-SJ-vSt" id="Ugg-lo-Fdc"/>
+                <outlet property="lbl_CarDetails" destination="jgP-gm-xmm" id="uoA-BD-s4x"/>
+            </connections>
+            <point key="canvasLocation" x="100.76335877862596" y="-41.901408450704224"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

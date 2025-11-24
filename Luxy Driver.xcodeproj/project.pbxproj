@@ -7,15 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B8AE6FBE9CBEAF48499B07D /* Pods_Luxy_DriverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AAC9AD51932CF7D234B2967 /* Pods_Luxy_DriverTests.framework */; };
+		3C6FDE173D3186073EAD163C /* Pods_Luxy_Driver_Luxy_DriverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE4250D51A50B971BE6C71B /* Pods_Luxy_Driver_Luxy_DriverUITests.framework */; };
+		5941BE4853DB8B76FBBDB3B5 /* Pods_Luxy_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3E2671A2A103E1A45509B4 /* Pods_Luxy_Driver.framework */; };
+		A5A8E4482D4A287300BA56BD /* booking_sound_file.mpeg in Resources */ = {isa = PBXBuildFile; fileRef = A5A8E4472D4A287300BA56BD /* booking_sound_file.mpeg */; };
+		A5A8E44A2D4A2B8C00BA56BD /* text_sound_file.mpeg in Resources */ = {isa = PBXBuildFile; fileRef = A5A8E4492D4A2B8C00BA56BD /* text_sound_file.mpeg */; };
+		CF0617E02B765D53005CACB6 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0617DF2B765D53005CACB6 /* Stop.swift */; };
+		CF15E6AD2DACD59400BBBF1D /* DriverCarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF15E6AC2DACD59400BBBF1D /* DriverCarsVC.swift */; };
+		CF15E6AF2DACD6C200BBBF1D /* AddDriverCarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF15E6AE2DACD6C200BBBF1D /* AddDriverCarsVC.swift */; };
+		CF26DF432D08758900500863 /* MTSlideToOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26DF422D08758900500863 /* MTSlideToOpenView.swift */; };
+		CF2847AA2DAD1C0F009D4426 /* Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2847A92DAD1C0F009D4426 /* Make.swift */; };
+		CF2847AC2DAD1CF4009D4426 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2847AB2DAD1CF4009D4426 /* CarModel.swift */; };
+		CF2847AE2DAD1DB2009D4426 /* CarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2847AD2DAD1DB2009D4426 /* CarColor.swift */; };
 		CF310B822B2AFE440079C734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310B812B2AFE440079C734 /* AppDelegate.swift */; };
-		CF310B842B2AFE440079C734 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310B832B2AFE440079C734 /* SceneDelegate.swift */; };
-		CF310B862B2AFE440079C734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310B852B2AFE440079C734 /* ViewController.swift */; };
 		CF310B892B2AFE440079C734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF310B872B2AFE440079C734 /* Main.storyboard */; };
 		CF310B8B2B2AFE460079C734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF310B8A2B2AFE460079C734 /* Assets.xcassets */; };
 		CF310B8E2B2AFE460079C734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF310B8C2B2AFE460079C734 /* LaunchScreen.storyboard */; };
 		CF310B992B2AFE460079C734 /* Luxy_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310B982B2AFE460079C734 /* Luxy_DriverTests.swift */; };
 		CF310BA32B2AFE460079C734 /* Luxy_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BA22B2AFE460079C734 /* Luxy_DriverUITests.swift */; };
 		CF310BA52B2AFE460079C734 /* Luxy_DriverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BA42B2AFE460079C734 /* Luxy_DriverUITestsLaunchTests.swift */; };
+		CF310BBC2B2B184D0079C734 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BBB2B2B184C0079C734 /* WelcomeVC.swift */; };
+		CF310BC22B2B1A8B0079C734 /* WelcomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BC02B2B1A8B0079C734 /* WelcomeCell.swift */; };
+		CF310BC32B2B1A8B0079C734 /* WelcomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF310BC12B2B1A8B0079C734 /* WelcomeCell.xib */; };
+		CF310BC52B2B1BBB0079C734 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BC42B2B1BBB0079C734 /* LoginVC.swift */; };
+		CF310BD42B2B24710079C734 /* InternatUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BCC2B2B24700079C734 /* InternatUtility.swift */; };
+		CF310BD52B2B24710079C734 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BCD2B2B24700079C734 /* Extension.swift */; };
+		CF310BD62B2B24710079C734 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BCE2B2B24700079C734 /* Utility.swift */; };
+		CF310BD72B2B24710079C734 /* Navigation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BCF2B2B24700079C734 /* Navigation+Extension.swift */; };
+		CF310BD82B2B24710079C734 /* CustomPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BD02B2B24700079C734 /* CustomPoint.swift */; };
+		CF310BD92B2B24710079C734 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BD12B2B24700079C734 /* Switcher.swift */; };
+		CF310BDA2B2B24710079C734 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BD22B2B24700079C734 /* Service.swift */; };
+		CF310BDB2B2B24710079C734 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BD32B2B24710079C734 /* CameraHandler.swift */; };
+		CF310BE12B2B248E0079C734 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CF310BDE2B2B248E0079C734 /* MBProgressHUD.m */; };
+		CF310BE22B2B248E0079C734 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CF310BE02B2B248E0079C734 /* Reachability.m */; };
+		CF310BE42B2B24E20079C734 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BE32B2B24E20079C734 /* LocationManager.swift */; };
+		CF310BE72B2B24F00079C734 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BE52B2B24EF0079C734 /* Constant.swift */; };
+		CF310BE82B2B24F00079C734 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BE62B2B24F00079C734 /* Variable.swift */; };
+		CF310BEB2B2B24FE0079C734 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BE92B2B24FE0079C734 /* Router.swift */; };
+		CF310BEC2B2B24FE0079C734 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BEA2B2B24FE0079C734 /* Api.swift */; };
+		CF310C042B2B25180079C734 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BED2B2B25160079C734 /* Basic.swift */; };
+		CF310C052B2B25180079C734 /* Policies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BEE2B2B25160079C734 /* Policies.swift */; };
+		CF310C062B2B25180079C734 /* WalletAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BEF2B2B25160079C734 /* WalletAmount.swift */; };
+		CF310C072B2B25180079C734 /* VehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF02B2B25160079C734 /* VehicleList.swift */; };
+		CF310C082B2B25180079C734 /* UpdateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF12B2B25160079C734 /* UpdateProfile.swift */; };
+		CF310C092B2B25180079C734 /* Otp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF22B2B25160079C734 /* Otp.swift */; };
+		CF310C0A2B2B25180079C734 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF32B2B25170079C734 /* Notification.swift */; };
+		CF310C0B2B2B25180079C734 /* AddChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF42B2B25170079C734 /* AddChat.swift */; };
+		CF310C0C2B2B25180079C734 /* AddRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF52B2B25170079C734 /* AddRequest.swift */; };
+		CF310C0D2B2B25180079C734 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF62B2B25170079C734 /* ForgotPassword.swift */; };
+		CF310C0E2B2B25180079C734 /* AcceptNewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF72B2B25170079C734 /* AcceptNewRequest.swift */; };
+		CF310C0F2B2B25180079C734 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF82B2B25170079C734 /* Profile.swift */; };
+		CF310C102B2B25180079C734 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BF92B2B25170079C734 /* Rating.swift */; };
+		CF310C112B2B25180079C734 /* AccountDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BFA2B2B25170079C734 /* AccountDelete.swift */; };
+		CF310C122B2B25180079C734 /* CancelRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BFB2B2B25170079C734 /* CancelRequest.swift */; };
+		CF310C132B2B25180079C734 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BFC2B2B25180079C734 /* History.swift */; };
+		CF310C142B2B25180079C734 /* Complaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BFD2B2B25180079C734 /* Complaint.swift */; };
+		CF310C152B2B25180079C734 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BFE2B2B25180079C734 /* Login.swift */; };
+		CF310C162B2B25180079C734 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310BFF2B2B25180079C734 /* SignUp.swift */; };
+		CF310C172B2B25180079C734 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310C002B2B25180079C734 /* Chat.swift */; };
+		CF310C182B2B25180079C734 /* ActiveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310C012B2B25180079C734 /* ActiveRequest.swift */; };
+		CF310C192B2B25180079C734 /* PendingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310C022B2B25180079C734 /* PendingRequest.swift */; };
+		CF310C1A2B2B25180079C734 /* DriverStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310C032B2B25180079C734 /* DriverStatus.swift */; };
+		CF310C1C2B2B26BE0079C734 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF310C1B2B2B26BE0079C734 /* ForgotPasswordVC.swift */; };
+		CF4ED35D2B2C252400922F7B /* EarningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4ED35C2B2C252400922F7B /* EarningVC.swift */; };
+		CF4ED3612B2C27B500922F7B /* EarningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4ED35F2B2C27B500922F7B /* EarningCell.swift */; };
+		CF4ED3622B2C27B500922F7B /* EarningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF4ED3602B2C27B500922F7B /* EarningCell.xib */; };
+		CF67E3A32D2BD54A0076BE22 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF67E3A22D2BD54A0076BE22 /* R.generated.swift */; };
+		CF6F62E72D0B0C6E00D809C5 /* PresentCancelReasonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F62E62D0B0C6E00D809C5 /* PresentCancelReasonVC.swift */; };
+		CF6F62E92D0B14EC00D809C5 /* ReasonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F62E82D0B14EC00D809C5 /* ReasonList.swift */; };
+		CF6F62ED2D0B164D00D809C5 /* ReasonListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6F62EC2D0B164D00D809C5 /* ReasonListCell.xib */; };
+		CF6F62EE2D0B164D00D809C5 /* ReasonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F62EB2D0B164D00D809C5 /* ReasonListCell.swift */; };
+		CF841EF12D27E9F20056EFA5 /* RideDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841EF02D27E9F20056EFA5 /* RideDetailVC.swift */; };
+		CF841EF32D27EBB30056EFA5 /* RequestDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF841EF22D27EBB30056EFA5 /* RequestDetail.swift */; };
+		CF8FD97B2DAFC65500C07DF6 /* CarModelVehicke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8FD97A2DAFC65500C07DF6 /* CarModelVehicke.swift */; };
+		CF95D4722B3064B700515BB9 /* NewRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4702B3064B700515BB9 /* NewRequestCell.swift */; };
+		CF95D4732B3064B700515BB9 /* NewRequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF95D4712B3064B700515BB9 /* NewRequestCell.xib */; };
+		CF95D4752B306A3D00515BB9 /* ArrivedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4742B306A3D00515BB9 /* ArrivedVC.swift */; };
+		CF95D4772B306A6B00515BB9 /* GradiantPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4762B306A6B00515BB9 /* GradiantPath.swift */; };
+		CF95D4792B306B0A00515BB9 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4782B306B0A00515BB9 /* ChatVC.swift */; };
+		CF95D47B2B306B3400515BB9 /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D47A2B306B3400515BB9 /* RatingVC.swift */; };
+		CF95D47E2B306C1300515BB9 /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D47D2B306C1300515BB9 /* LeftMenuVC.swift */; };
+		CF95D4802B306DDA00515BB9 /* MyAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D47F2B306DDA00515BB9 /* MyAccountVC.swift */; };
+		CF95D4822B306E3900515BB9 /* InviteFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4812B306E3900515BB9 /* InviteFriendVC.swift */; };
+		CF95D4842B306E6B00515BB9 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4832B306E6B00515BB9 /* ContactUsVC.swift */; };
+		CF95D4862B306EDC00515BB9 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4852B306EDC00515BB9 /* ChangePasswordVC.swift */; };
+		CF95D4882B306EFD00515BB9 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4872B306EFD00515BB9 /* NotificationVC.swift */; };
+		CF95D48A2B306F1600515BB9 /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4892B306F1600515BB9 /* PrivacyPolicyVC.swift */; };
+		CF95D48C2B306F1D00515BB9 /* Term&ConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D48B2B306F1D00515BB9 /* Term&ConditionVC.swift */; };
+		CF95D48E2B306FB600515BB9 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D48D2B306FB600515BB9 /* HistoryVC.swift */; };
+		CF95D4902B30700800515BB9 /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D48F2B30700800515BB9 /* WalletVC.swift */; };
+		CF95D4922B30702800515BB9 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4912B30702800515BB9 /* EditProfileVC.swift */; };
+		CF95D4942B30703D00515BB9 /* WithdrawAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4932B30703D00515BB9 /* WithdrawAmountVC.swift */; };
+		CF95D49B2B3070A400515BB9 /* LeftCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF95D4992B3070A300515BB9 /* LeftCell.xib */; };
+		CF95D49C2B3070A400515BB9 /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D49A2B3070A300515BB9 /* LeftCell.swift */; };
+		CF95D49F2B3070AD00515BB9 /* RightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D49D2B3070AD00515BB9 /* RightCell.swift */; };
+		CF95D4A02B3070AD00515BB9 /* RightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF95D49E2B3070AD00515BB9 /* RightCell.xib */; };
+		CF95D4A32B3070BC00515BB9 /* LeftMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4A12B3070BB00515BB9 /* LeftMenuCell.swift */; };
+		CF95D4A42B3070BC00515BB9 /* LeftMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF95D4A22B3070BC00515BB9 /* LeftMenuCell.xib */; };
+		CF95D4A82B3070DC00515BB9 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4A62B3070DC00515BB9 /* HistoryCell.swift */; };
+		CF95D4A92B3070DC00515BB9 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF95D4A72B3070DC00515BB9 /* HistoryCell.xib */; };
+		CF95D4AD2B3070F100515BB9 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4AB2B3070F100515BB9 /* NotificationCell.swift */; };
+		CF95D4AE2B3070F100515BB9 /* NotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF95D4AC2B3070F100515BB9 /* NotificationCell.xib */; };
+		CF95D4B02B30713500515BB9 /* BankDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4AF2B30713500515BB9 /* BankDetailVC.swift */; };
+		CF95D4B22B30715900515BB9 /* AddInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4B12B30715900515BB9 /* AddInfoVC.swift */; };
+		CF95D4B52B30730A00515BB9 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4B42B30730A00515BB9 /* ScheduleVC.swift */; };
+		CF95D4B72B3075E100515BB9 /* RatingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4B62B3075E100515BB9 /* RatingDetailVC.swift */; };
+		CF95D4BB2B30762500515BB9 /* RatingDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95D4B92B30762400515BB9 /* RatingDetailCell.swift */; };
+		CF95D4BC2B30762500515BB9 /* RatingDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF95D4BA2B30762500515BB9 /* RatingDetailCell.xib */; };
+		CF9E83022D23D67800DB1AC4 /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E83012D23D67800DB1AC4 /* GradiantView.swift */; };
+		CFA8F5252B495A5E0079D94C /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8F5242B495A5E0079D94C /* Schedule.swift */; };
+		CFA8F52D2B495B8F0079D94C /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA8F52B2B495B8E0079D94C /* ScheduleCell.xib */; };
+		CFA8F52E2B495B8F0079D94C /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8F52C2B495B8F0079D94C /* ScheduleCell.swift */; };
+		CFA932952B79FA940080781D /* PreferenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA932932B79FA940080781D /* PreferenceCell.swift */; };
+		CFA932962B79FA940080781D /* PreferenceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA932942B79FA940080781D /* PreferenceCell.xib */; };
+		CFA957762D30FA1B00E3F574 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA957752D30FA1B00E3F574 /* GoogleService-Info.plist */; };
+		CFAAC8B42D3A9A80004514F7 /* SayThankMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAAC8B32D3A9A80004514F7 /* SayThankMessage.swift */; };
+		CFAB3C682B2B28DC00EE1014 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB3C672B2B28DB00EE1014 /* SignUpVC.swift */; };
+		CFAB3C6A2B2B2A2D00EE1014 /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB3C692B2B2A2D00EE1014 /* OtpVC.swift */; };
+		CFAB3C6E2B2B2F1B00EE1014 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB3C6D2B2B2F1B00EE1014 /* HomeVC.swift */; };
+		CFACA2432B79E46B00DEBEEB /* VehiclePreferenceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFACA2422B79E46B00DEBEEB /* VehiclePreferenceVC.swift */; };
+		CFACCEB92C1310F200F2279E /* RequestTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFACCEB82C1310F200F2279E /* RequestTime.swift */; };
+		CFAEB3892DACF30D005176B4 /* UploadVehcileImgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAEB3882DACF30D005176B4 /* UploadVehcileImgVC.swift */; };
+		CFB7DA932DAF7CAE00780E4A /* AddDriverVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB7DA922DAF7CAE00780E4A /* AddDriverVehicle.swift */; };
+		CFBE29792D0AE0F4008C1874 /* UpdateLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBE29782D0AE0F4008C1874 /* UpdateLocation.swift */; };
+		CFBE297B2D0B07CD008C1874 /* PresentCancelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBE297A2D0B07CD008C1874 /* PresentCancelVC.swift */; };
+		CFC122652C0D8B1800628430 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC122642C0D8B1800628430 /* UIView.swift */; };
+		CFC29CD62D098F8200502FA8 /* UserStopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC29CD52D098F8200502FA8 /* UserStopCell.xib */; };
+		CFC29CD72D098F8200502FA8 /* UserStopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC29CD42D098F8200502FA8 /* UserStopCell.swift */; };
+		CFC29CD92D09CA8F00502FA8 /* CicularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC29CD82D09CA8F00502FA8 /* CicularProgressBar.swift */; };
+		CFCA4C2B2C11EEAE00E25E74 /*  MapViewDetegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA4C2A2C11EEAE00E25E74 /*  MapViewDetegate.swift */; };
+		CFCA4C2D2C11F31100E25E74 /* MapRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA4C2C2C11F31100E25E74 /* MapRoute.swift */; };
+		CFDD1D372B4D491100E77671 /* ScheduleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD1D362B4D491100E77671 /* ScheduleDetailVC.swift */; };
+		CFE4CC292DACFED500135F1E /* SavedCarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CC272DACFED500135F1E /* SavedCarCell.swift */; };
+		CFE4CC2A2DACFED500135F1E /* SavedCarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFE4CC282DACFED500135F1E /* SavedCarCell.xib */; };
+		CFE4CC2C2DAD025C00135F1E /* DriverVehicleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CC2B2DAD025C00135F1E /* DriverVehicleList.swift */; };
+		CFE4CC2E2DAD0E4B00135F1E /* DriverVehicleDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CC2D2DAD0E4B00135F1E /* DriverVehicleDetailVC.swift */; };
+		CFE4CC322DAD0EE200135F1E /* VehicleImgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE4CC302DAD0EE200135F1E /* VehicleImgCell.swift */; };
+		CFE4CC332DAD0EE200135F1E /* VehicleImgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFE4CC312DAD0EE200135F1E /* VehicleImgCell.xib */; };
+		CFE6627F2C0AFC98002C4A4F /* UserLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE6627E2C0AFC98002C4A4F /* UserLevel.swift */; };
+		CFE662812C0B1CEB002C4A4F /* DriverEarnings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE662802C0B1CEB002C4A4F /* DriverEarnings.swift */; };
+		CFE7B0352C09F7DF00BB3550 /* RewardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE7B0342C09F7DF00BB3550 /* RewardsVC.swift */; };
+		CFED4B3E2D39033300C86B71 /* userSelectedAmt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFED4B3D2D39033300C86B71 /* userSelectedAmt.swift */; };
+		CFEE128F2B5691B100CB5BB8 /* QRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE128E2B5691B100CB5BB8 /* QRCodeVC.swift */; };
+		CFF24DE62D1EE94800C4E420 /* FareAmountCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF24DE52D1EE94800C4E420 /* FareAmountCalculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +170,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0910FDFBD4D71AF8019886A2 /* Pods-Luxy Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luxy Driver.release.xcconfig"; path = "Target Support Files/Pods-Luxy Driver/Pods-Luxy Driver.release.xcconfig"; sourceTree = "<group>"; };
+		208529CFC3EBA1EDFD99CF9C /* Pods-Luxy Driver-Luxy DriverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luxy Driver-Luxy DriverUITests.debug.xcconfig"; path = "Target Support Files/Pods-Luxy Driver-Luxy DriverUITests/Pods-Luxy Driver-Luxy DriverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AAC9AD51932CF7D234B2967 /* Pods_Luxy_DriverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Luxy_DriverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3E2671A2A103E1A45509B4 /* Pods_Luxy_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Luxy_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		976387D9ED04C7EDBD05FE7A /* Pods-Luxy DriverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luxy DriverTests.debug.xcconfig"; path = "Target Support Files/Pods-Luxy DriverTests/Pods-Luxy DriverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE4250D51A50B971BE6C71B /* Pods_Luxy_Driver_Luxy_DriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Luxy_Driver_Luxy_DriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A8E4472D4A287300BA56BD /* booking_sound_file.mpeg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; path = booking_sound_file.mpeg; sourceTree = "<group>"; };
+		A5A8E4492D4A2B8C00BA56BD /* text_sound_file.mpeg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; path = text_sound_file.mpeg; sourceTree = "<group>"; };
+		CF0617DF2B765D53005CACB6 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		CF15E6AC2DACD59400BBBF1D /* DriverCarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCarsVC.swift; sourceTree = "<group>"; };
+		CF15E6AE2DACD6C200BBBF1D /* AddDriverCarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDriverCarsVC.swift; sourceTree = "<group>"; };
+		CF26DF422D08758900500863 /* MTSlideToOpenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTSlideToOpenView.swift; sourceTree = "<group>"; };
+		CF2847A92DAD1C0F009D4426 /* Make.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make.swift; sourceTree = "<group>"; };
+		CF2847AB2DAD1CF4009D4426 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		CF2847AD2DAD1DB2009D4426 /* CarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarColor.swift; sourceTree = "<group>"; };
 		CF310B7E2B2AFE440079C734 /* Luxy Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luxy Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF310B812B2AFE440079C734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF310B832B2AFE440079C734 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF310B852B2AFE440079C734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF310B882B2AFE440079C734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF310B8A2B2AFE460079C734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF310B8D2B2AFE460079C734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +196,137 @@
 		CF310B9E2B2AFE460079C734 /* Luxy DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luxy DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF310BA22B2AFE460079C734 /* Luxy_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luxy_DriverUITests.swift; sourceTree = "<group>"; };
 		CF310BA42B2AFE460079C734 /* Luxy_DriverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luxy_DriverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF310BBB2B2B184C0079C734 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		CF310BC02B2B1A8B0079C734 /* WelcomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeCell.swift; sourceTree = "<group>"; };
+		CF310BC12B2B1A8B0079C734 /* WelcomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeCell.xib; sourceTree = "<group>"; };
+		CF310BC42B2B1BBB0079C734 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CF310BCC2B2B24700079C734 /* InternatUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternatUtility.swift; sourceTree = "<group>"; };
+		CF310BCD2B2B24700079C734 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CF310BCE2B2B24700079C734 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		CF310BCF2B2B24700079C734 /* Navigation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Navigation+Extension.swift"; sourceTree = "<group>"; };
+		CF310BD02B2B24700079C734 /* CustomPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPoint.swift; sourceTree = "<group>"; };
+		CF310BD12B2B24700079C734 /* Switcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		CF310BD22B2B24700079C734 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CF310BD32B2B24710079C734 /* CameraHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
+		CF310BDC2B2B248D0079C734 /* Luxy Driver-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Luxy Driver-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF310BDD2B2B248E0079C734 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CF310BDE2B2B248E0079C734 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CF310BDF2B2B248E0079C734 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CF310BE02B2B248E0079C734 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CF310BE32B2B24E20079C734 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CF310BE52B2B24EF0079C734 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CF310BE62B2B24F00079C734 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		CF310BE92B2B24FE0079C734 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		CF310BEA2B2B24FE0079C734 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		CF310BED2B2B25160079C734 /* Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
+		CF310BEE2B2B25160079C734 /* Policies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Policies.swift; sourceTree = "<group>"; };
+		CF310BEF2B2B25160079C734 /* WalletAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletAmount.swift; sourceTree = "<group>"; };
+		CF310BF02B2B25160079C734 /* VehicleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleList.swift; sourceTree = "<group>"; };
+		CF310BF12B2B25160079C734 /* UpdateProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateProfile.swift; sourceTree = "<group>"; };
+		CF310BF22B2B25160079C734 /* Otp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Otp.swift; sourceTree = "<group>"; };
+		CF310BF32B2B25170079C734 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		CF310BF42B2B25170079C734 /* AddChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChat.swift; sourceTree = "<group>"; };
+		CF310BF52B2B25170079C734 /* AddRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRequest.swift; sourceTree = "<group>"; };
+		CF310BF62B2B25170079C734 /* ForgotPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		CF310BF72B2B25170079C734 /* AcceptNewRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptNewRequest.swift; sourceTree = "<group>"; };
+		CF310BF82B2B25170079C734 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CF310BF92B2B25170079C734 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		CF310BFA2B2B25170079C734 /* AccountDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDelete.swift; sourceTree = "<group>"; };
+		CF310BFB2B2B25170079C734 /* CancelRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelRequest.swift; sourceTree = "<group>"; };
+		CF310BFC2B2B25180079C734 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		CF310BFD2B2B25180079C734 /* Complaint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Complaint.swift; sourceTree = "<group>"; };
+		CF310BFE2B2B25180079C734 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CF310BFF2B2B25180079C734 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CF310C002B2B25180079C734 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		CF310C012B2B25180079C734 /* ActiveRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveRequest.swift; sourceTree = "<group>"; };
+		CF310C022B2B25180079C734 /* PendingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingRequest.swift; sourceTree = "<group>"; };
+		CF310C032B2B25180079C734 /* DriverStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverStatus.swift; sourceTree = "<group>"; };
+		CF310C1B2B2B26BE0079C734 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		CF4ED35C2B2C252400922F7B /* EarningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningVC.swift; sourceTree = "<group>"; };
+		CF4ED35F2B2C27B500922F7B /* EarningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningCell.swift; sourceTree = "<group>"; };
+		CF4ED3602B2C27B500922F7B /* EarningCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EarningCell.xib; sourceTree = "<group>"; };
+		CF67E3A22D2BD54A0076BE22 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		CF6F62E62D0B0C6E00D809C5 /* PresentCancelReasonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentCancelReasonVC.swift; sourceTree = "<group>"; };
+		CF6F62E82D0B14EC00D809C5 /* ReasonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonList.swift; sourceTree = "<group>"; };
+		CF6F62EB2D0B164D00D809C5 /* ReasonListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonListCell.swift; sourceTree = "<group>"; };
+		CF6F62EC2D0B164D00D809C5 /* ReasonListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReasonListCell.xib; sourceTree = "<group>"; };
+		CF841EF02D27E9F20056EFA5 /* RideDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideDetailVC.swift; sourceTree = "<group>"; };
+		CF841EF22D27EBB30056EFA5 /* RequestDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDetail.swift; sourceTree = "<group>"; };
+		CF8FD97A2DAFC65500C07DF6 /* CarModelVehicke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModelVehicke.swift; sourceTree = "<group>"; };
+		CF95D4702B3064B700515BB9 /* NewRequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRequestCell.swift; sourceTree = "<group>"; };
+		CF95D4712B3064B700515BB9 /* NewRequestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewRequestCell.xib; sourceTree = "<group>"; };
+		CF95D4742B306A3D00515BB9 /* ArrivedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivedVC.swift; sourceTree = "<group>"; };
+		CF95D4762B306A6B00515BB9 /* GradiantPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradiantPath.swift; sourceTree = "<group>"; };
+		CF95D4782B306B0A00515BB9 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		CF95D47A2B306B3400515BB9 /* RatingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
+		CF95D47D2B306C1300515BB9 /* LeftMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		CF95D47F2B306DDA00515BB9 /* MyAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAccountVC.swift; sourceTree = "<group>"; };
+		CF95D4812B306E3900515BB9 /* InviteFriendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteFriendVC.swift; sourceTree = "<group>"; };
+		CF95D4832B306E6B00515BB9 /* ContactUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		CF95D4852B306EDC00515BB9 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		CF95D4872B306EFD00515BB9 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		CF95D4892B306F1600515BB9 /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		CF95D48B2B306F1D00515BB9 /* Term&ConditionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Term&ConditionVC.swift"; sourceTree = "<group>"; };
+		CF95D48D2B306FB600515BB9 /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		CF95D48F2B30700800515BB9 /* WalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		CF95D4912B30702800515BB9 /* EditProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		CF95D4932B30703D00515BB9 /* WithdrawAmountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawAmountVC.swift; sourceTree = "<group>"; };
+		CF95D4992B3070A300515BB9 /* LeftCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftCell.xib; sourceTree = "<group>"; };
+		CF95D49A2B3070A300515BB9 /* LeftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
+		CF95D49D2B3070AD00515BB9 /* RightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightCell.swift; sourceTree = "<group>"; };
+		CF95D49E2B3070AD00515BB9 /* RightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightCell.xib; sourceTree = "<group>"; };
+		CF95D4A12B3070BB00515BB9 /* LeftMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuCell.swift; sourceTree = "<group>"; };
+		CF95D4A22B3070BC00515BB9 /* LeftMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMenuCell.xib; sourceTree = "<group>"; };
+		CF95D4A62B3070DC00515BB9 /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		CF95D4A72B3070DC00515BB9 /* HistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		CF95D4AB2B3070F100515BB9 /* NotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		CF95D4AC2B3070F100515BB9 /* NotificationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationCell.xib; sourceTree = "<group>"; };
+		CF95D4AF2B30713500515BB9 /* BankDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailVC.swift; sourceTree = "<group>"; };
+		CF95D4B12B30715900515BB9 /* AddInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoVC.swift; sourceTree = "<group>"; };
+		CF95D4B42B30730A00515BB9 /* ScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		CF95D4B62B3075E100515BB9 /* RatingDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingDetailVC.swift; sourceTree = "<group>"; };
+		CF95D4B92B30762400515BB9 /* RatingDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingDetailCell.swift; sourceTree = "<group>"; };
+		CF95D4BA2B30762500515BB9 /* RatingDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingDetailCell.xib; sourceTree = "<group>"; };
+		CF9E83012D23D67800DB1AC4 /* GradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
+		CFA8F5242B495A5E0079D94C /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		CFA8F52B2B495B8E0079D94C /* ScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleCell.xib; sourceTree = "<group>"; };
+		CFA8F52C2B495B8F0079D94C /* ScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		CFA932932B79FA940080781D /* PreferenceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceCell.swift; sourceTree = "<group>"; };
+		CFA932942B79FA940080781D /* PreferenceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferenceCell.xib; sourceTree = "<group>"; };
+		CFA957752D30FA1B00E3F574 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFAAC8B32D3A9A80004514F7 /* SayThankMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayThankMessage.swift; sourceTree = "<group>"; };
+		CFAB3C672B2B28DB00EE1014 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		CFAB3C692B2B2A2D00EE1014 /* OtpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		CFAB3C6D2B2B2F1B00EE1014 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CFACA2422B79E46B00DEBEEB /* VehiclePreferenceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclePreferenceVC.swift; sourceTree = "<group>"; };
+		CFACCEB82C1310F200F2279E /* RequestTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTime.swift; sourceTree = "<group>"; };
+		CFAEB3882DACF30D005176B4 /* UploadVehcileImgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVehcileImgVC.swift; sourceTree = "<group>"; };
+		CFB7DA922DAF7CAE00780E4A /* AddDriverVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDriverVehicle.swift; sourceTree = "<group>"; };
+		CFBE29782D0AE0F4008C1874 /* UpdateLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLocation.swift; sourceTree = "<group>"; };
+		CFBE297A2D0B07CD008C1874 /* PresentCancelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentCancelVC.swift; sourceTree = "<group>"; };
+		CFC122642C0D8B1800628430 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CFC29CD42D098F8200502FA8 /* UserStopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStopCell.swift; sourceTree = "<group>"; };
+		CFC29CD52D098F8200502FA8 /* UserStopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserStopCell.xib; sourceTree = "<group>"; };
+		CFC29CD82D09CA8F00502FA8 /* CicularProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CicularProgressBar.swift; sourceTree = "<group>"; };
+		CFCA4C2A2C11EEAE00E25E74 /*  MapViewDetegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MapViewDetegate.swift"; sourceTree = "<group>"; };
+		CFCA4C2C2C11F31100E25E74 /* MapRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRoute.swift; sourceTree = "<group>"; };
+		CFDD1D362B4D491100E77671 /* ScheduleDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDetailVC.swift; sourceTree = "<group>"; };
+		CFE4CC272DACFED500135F1E /* SavedCarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCarCell.swift; sourceTree = "<group>"; };
+		CFE4CC282DACFED500135F1E /* SavedCarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedCarCell.xib; sourceTree = "<group>"; };
+		CFE4CC2B2DAD025C00135F1E /* DriverVehicleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverVehicleList.swift; sourceTree = "<group>"; };
+		CFE4CC2D2DAD0E4B00135F1E /* DriverVehicleDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverVehicleDetailVC.swift; sourceTree = "<group>"; };
+		CFE4CC302DAD0EE200135F1E /* VehicleImgCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleImgCell.swift; sourceTree = "<group>"; };
+		CFE4CC312DAD0EE200135F1E /* VehicleImgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehicleImgCell.xib; sourceTree = "<group>"; };
+		CFE6627E2C0AFC98002C4A4F /* UserLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLevel.swift; sourceTree = "<group>"; };
+		CFE662802C0B1CEB002C4A4F /* DriverEarnings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverEarnings.swift; sourceTree = "<group>"; };
+		CFE7B0342C09F7DF00BB3550 /* RewardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsVC.swift; sourceTree = "<group>"; };
+		CFE906B92D31438D00E2434D /* Luxy Driver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Luxy Driver.entitlements"; sourceTree = "<group>"; };
+		CFED4B3D2D39033300C86B71 /* userSelectedAmt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userSelectedAmt.swift; sourceTree = "<group>"; };
+		CFEE128E2B5691B100CB5BB8 /* QRCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeVC.swift; sourceTree = "<group>"; };
+		CFF24DE52D1EE94800C4E420 /* FareAmountCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareAmountCalculation.swift; sourceTree = "<group>"; };
+		F55E599ED87031A32251B151 /* Pods-Luxy Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luxy Driver.debug.xcconfig"; path = "Target Support Files/Pods-Luxy Driver/Pods-Luxy Driver.debug.xcconfig"; sourceTree = "<group>"; };
+		F692A6CFD72CC30E62BBF1F6 /* Pods-Luxy DriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luxy DriverTests.release.xcconfig"; path = "Target Support Files/Pods-Luxy DriverTests/Pods-Luxy DriverTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7BE37DA735AEDCB7A5643C2 /* Pods-Luxy Driver-Luxy DriverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Luxy Driver-Luxy DriverUITests.release.xcconfig"; path = "Target Support Files/Pods-Luxy Driver-Luxy DriverUITests/Pods-Luxy Driver-Luxy DriverUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +334,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5941BE4853DB8B76FBBDB3B5 /* Pods_Luxy_Driver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +342,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8AE6FBE9CBEAF48499B07D /* Pods_Luxy_DriverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +350,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6FDE173D3186073EAD163C /* Pods_Luxy_Driver_Luxy_DriverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25E808F5B7444921EED553E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F55E599ED87031A32251B151 /* Pods-Luxy Driver.debug.xcconfig */,
+				0910FDFBD4D71AF8019886A2 /* Pods-Luxy Driver.release.xcconfig */,
+				208529CFC3EBA1EDFD99CF9C /* Pods-Luxy Driver-Luxy DriverUITests.debug.xcconfig */,
+				F7BE37DA735AEDCB7A5643C2 /* Pods-Luxy Driver-Luxy DriverUITests.release.xcconfig */,
+				976387D9ED04C7EDBD05FE7A /* Pods-Luxy DriverTests.debug.xcconfig */,
+				F692A6CFD72CC30E62BBF1F6 /* Pods-Luxy DriverTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC8D14810832594BBF8A4754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C3E2671A2A103E1A45509B4 /* Pods_Luxy_Driver.framework */,
+				9EE4250D51A50B971BE6C71B /* Pods_Luxy_Driver_Luxy_DriverUITests.framework */,
+				7AAC9AD51932CF7D234B2967 /* Pods_Luxy_DriverTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF15E6AB2DACD4DF00BBBF1D /* HomeActivities */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB3C6D2B2B2F1B00EE1014 /* HomeVC.swift */,
+				CF95D4742B306A3D00515BB9 /* ArrivedVC.swift */,
+				CF95D4782B306B0A00515BB9 /* ChatVC.swift */,
+				CF95D47A2B306B3400515BB9 /* RatingVC.swift */,
+				CF95D48F2B30700800515BB9 /* WalletVC.swift */,
+				CF95D4932B30703D00515BB9 /* WithdrawAmountVC.swift */,
+				CF95D4B42B30730A00515BB9 /* ScheduleVC.swift */,
+				CFED4B3D2D39033300C86B71 /* userSelectedAmt.swift */,
+				CF841EF02D27E9F20056EFA5 /* RideDetailVC.swift */,
+				CFDD1D362B4D491100E77671 /* ScheduleDetailVC.swift */,
+				CF95D4AF2B30713500515BB9 /* BankDetailVC.swift */,
+				CF95D48D2B306FB600515BB9 /* HistoryVC.swift */,
+				CFBE297A2D0B07CD008C1874 /* PresentCancelVC.swift */,
+				CF6F62E62D0B0C6E00D809C5 /* PresentCancelReasonVC.swift */,
+			);
+			path = HomeActivities;
+			sourceTree = "<group>";
+		};
+		CF26DF412D08757800500863 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				CF26DF422D08758900500863 /* MTSlideToOpenView.swift */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
 		CF310B752B2AFE440079C734 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +416,8 @@
 				CF310B972B2AFE460079C734 /* Luxy DriverTests */,
 				CF310BA12B2AFE460079C734 /* Luxy DriverUITests */,
 				CF310B7F2B2AFE440079C734 /* Products */,
+				25E808F5B7444921EED553E6 /* Pods */,
+				CC8D14810832594BBF8A4754 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +434,13 @@
 		CF310B802B2AFE440079C734 /* Luxy Driver */ = {
 			isa = PBXGroup;
 			children = (
+				CFE906B92D31438D00E2434D /* Luxy Driver.entitlements */,
 				CF310B812B2AFE440079C734 /* AppDelegate.swift */,
-				CF310B832B2AFE440079C734 /* SceneDelegate.swift */,
-				CF310B852B2AFE440079C734 /* ViewController.swift */,
-				CF310B872B2AFE440079C734 /* Main.storyboard */,
-				CF310B8A2B2AFE460079C734 /* Assets.xcassets */,
-				CF310B8C2B2AFE460079C734 /* LaunchScreen.storyboard */,
+				CF310BB52B2AFE6C0079C734 /* Modal */,
+				CF310BB62B2AFE720079C734 /* Component */,
+				CF310BB42B2AFE650079C734 /* Resources */,
+				CF310BB72B2AFE790079C734 /* Controller */,
+				CF310BB12B2AFE500079C734 /* View */,
 				CF310B8F2B2AFE460079C734 /* Info.plist */,
 			);
 			path = "Luxy Driver";
@@ -127,6 +463,375 @@
 			path = "Luxy DriverUITests";
 			sourceTree = "<group>";
 		};
+		CF310BB12B2AFE500079C734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BB32B2AFE5F0079C734 /* Cell */,
+				CF310BB22B2AFE560079C734 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF310BB22B2AFE560079C734 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CF310B8C2B2AFE460079C734 /* LaunchScreen.storyboard */,
+				CF310B872B2AFE440079C734 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CF310BB32B2AFE5F0079C734 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4CC2F2DAD0EC800135F1E /* VehicelImages */,
+				CFE4CC262DACFEB700135F1E /* Saved Car */,
+				CF6F62EA2D0B162F00D809C5 /* ReasonList */,
+				CFA932922B79FA710080781D /* Preferences */,
+				CFA8F5262B495B220079D94C /* Schedule */,
+				CF95D4B82B30761200515BB9 /* Rating */,
+				CF95D4AA2B3070E200515BB9 /* Notification */,
+				CF95D4A52B3070CC00515BB9 /* History */,
+				CF95D4962B30707200515BB9 /* Chat */,
+				CF95D4952B30706B00515BB9 /* LeftMenu */,
+				CF95D46F2B30647400515BB9 /* NewRequest */,
+				CF4ED35E2B2C25A300922F7B /* Earning */,
+				CF310BBF2B2B1A5F0079C734 /* Welcome */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CF310BB42B2AFE650079C734 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5A8E4472D4A287300BA56BD /* booking_sound_file.mpeg */,
+				A5A8E4492D4A2B8C00BA56BD /* text_sound_file.mpeg */,
+				CF67E3A22D2BD54A0076BE22 /* R.generated.swift */,
+				CF95D4762B306A6B00515BB9 /* GradiantPath.swift */,
+				CF310B8A2B2AFE460079C734 /* Assets.xcassets */,
+				CFA957752D30FA1B00E3F574 /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF310BB52B2AFE6C0079C734 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BF72B2B25170079C734 /* AcceptNewRequest.swift */,
+				CF310BFA2B2B25170079C734 /* AccountDelete.swift */,
+				CF310C012B2B25180079C734 /* ActiveRequest.swift */,
+				CF310BF42B2B25170079C734 /* AddChat.swift */,
+				CF310BF52B2B25170079C734 /* AddRequest.swift */,
+				CF310BED2B2B25160079C734 /* Basic.swift */,
+				CF310BFB2B2B25170079C734 /* CancelRequest.swift */,
+				CF310C002B2B25180079C734 /* Chat.swift */,
+				CF310BFD2B2B25180079C734 /* Complaint.swift */,
+				CF310C032B2B25180079C734 /* DriverStatus.swift */,
+				CF310BF62B2B25170079C734 /* ForgotPassword.swift */,
+				CF310BFC2B2B25180079C734 /* History.swift */,
+				CF310BFE2B2B25180079C734 /* Login.swift */,
+				CF310BF32B2B25170079C734 /* Notification.swift */,
+				CF310BF22B2B25160079C734 /* Otp.swift */,
+				CF310C022B2B25180079C734 /* PendingRequest.swift */,
+				CF310BEE2B2B25160079C734 /* Policies.swift */,
+				CF310BF82B2B25170079C734 /* Profile.swift */,
+				CF310BF92B2B25170079C734 /* Rating.swift */,
+				CF310BFF2B2B25180079C734 /* SignUp.swift */,
+				CF310BF12B2B25160079C734 /* UpdateProfile.swift */,
+				CF310BF02B2B25160079C734 /* VehicleList.swift */,
+				CF310BEF2B2B25160079C734 /* WalletAmount.swift */,
+				CFA8F5242B495A5E0079D94C /* Schedule.swift */,
+				CF0617DF2B765D53005CACB6 /* Stop.swift */,
+				CFE6627E2C0AFC98002C4A4F /* UserLevel.swift */,
+				CFE662802C0B1CEB002C4A4F /* DriverEarnings.swift */,
+				CFACCEB82C1310F200F2279E /* RequestTime.swift */,
+				CFBE29782D0AE0F4008C1874 /* UpdateLocation.swift */,
+				CF6F62E82D0B14EC00D809C5 /* ReasonList.swift */,
+				CFF24DE52D1EE94800C4E420 /* FareAmountCalculation.swift */,
+				CF841EF22D27EBB30056EFA5 /* RequestDetail.swift */,
+				CFAAC8B32D3A9A80004514F7 /* SayThankMessage.swift */,
+				CFE4CC2B2DAD025C00135F1E /* DriverVehicleList.swift */,
+				CF2847A92DAD1C0F009D4426 /* Make.swift */,
+				CF2847AB2DAD1CF4009D4426 /* CarModel.swift */,
+				CF2847AD2DAD1DB2009D4426 /* CarColor.swift */,
+				CFB7DA922DAF7CAE00780E4A /* AddDriverVehicle.swift */,
+				CF8FD97A2DAFC65500C07DF6 /* CarModelVehicke.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CF310BB62B2AFE720079C734 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BCA2B2B24200079C734 /* Http */,
+				CF26DF412D08757800500863 /* Slide */,
+				CF310BCB2B2B24320079C734 /* Common */,
+				CF310BC82B2B24100079C734 /* LocationManager */,
+				CF310BC72B2B23FD0079C734 /* ThirdPartyLibrary */,
+				CF310BC62B2B23F00079C734 /* Utilities */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CF310BB72B2AFE790079C734 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB3C6B2B2B2EF500EE1014 /* Primary */,
+				CFAB3C6C2B2B2F0100EE1014 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF310BBF2B2B1A5F0079C734 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BC02B2B1A8B0079C734 /* WelcomeCell.swift */,
+				CF310BC12B2B1A8B0079C734 /* WelcomeCell.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		CF310BC62B2B23F00079C734 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BD32B2B24710079C734 /* CameraHandler.swift */,
+				CF310BD02B2B24700079C734 /* CustomPoint.swift */,
+				CF310BCD2B2B24700079C734 /* Extension.swift */,
+				CF310BCC2B2B24700079C734 /* InternatUtility.swift */,
+				CF310BCF2B2B24700079C734 /* Navigation+Extension.swift */,
+				CF310BD22B2B24700079C734 /* Service.swift */,
+				CF310BD12B2B24700079C734 /* Switcher.swift */,
+				CF310BCE2B2B24700079C734 /* Utility.swift */,
+				CFC122642C0D8B1800628430 /* UIView.swift */,
+				CFCA4C2A2C11EEAE00E25E74 /*  MapViewDetegate.swift */,
+				CFCA4C2C2C11F31100E25E74 /* MapRoute.swift */,
+				CFC29CD82D09CA8F00502FA8 /* CicularProgressBar.swift */,
+				CF9E83012D23D67800DB1AC4 /* GradiantView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CF310BC72B2B23FD0079C734 /* ThirdPartyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BDD2B2B248E0079C734 /* MBProgressHUD.h */,
+				CF310BDE2B2B248E0079C734 /* MBProgressHUD.m */,
+				CF310BDF2B2B248E0079C734 /* Reachability.h */,
+				CF310BE02B2B248E0079C734 /* Reachability.m */,
+				CF310BDC2B2B248D0079C734 /* Luxy Driver-Bridging-Header.h */,
+			);
+			path = ThirdPartyLibrary;
+			sourceTree = "<group>";
+		};
+		CF310BC82B2B24100079C734 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BE32B2B24E20079C734 /* LocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		CF310BCA2B2B24200079C734 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BE92B2B24FE0079C734 /* Router.swift */,
+				CF310BEA2B2B24FE0079C734 /* Api.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		CF310BCB2B2B24320079C734 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BE52B2B24EF0079C734 /* Constant.swift */,
+				CF310BE62B2B24F00079C734 /* Variable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CF4ED35E2B2C25A300922F7B /* Earning */ = {
+			isa = PBXGroup;
+			children = (
+				CF4ED35F2B2C27B500922F7B /* EarningCell.swift */,
+				CF4ED3602B2C27B500922F7B /* EarningCell.xib */,
+			);
+			path = Earning;
+			sourceTree = "<group>";
+		};
+		CF6F62EA2D0B162F00D809C5 /* ReasonList */ = {
+			isa = PBXGroup;
+			children = (
+				CF6F62EB2D0B164D00D809C5 /* ReasonListCell.swift */,
+				CF6F62EC2D0B164D00D809C5 /* ReasonListCell.xib */,
+			);
+			path = ReasonList;
+			sourceTree = "<group>";
+		};
+		CF95D46F2B30647400515BB9 /* NewRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D4702B3064B700515BB9 /* NewRequestCell.swift */,
+				CF95D4712B3064B700515BB9 /* NewRequestCell.xib */,
+				CFC29CD32D098F6200502FA8 /* UserStop */,
+			);
+			path = NewRequest;
+			sourceTree = "<group>";
+		};
+		CF95D47C2B306BE400515BB9 /* LeftMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D47D2B306C1300515BB9 /* LeftMenuVC.swift */,
+				CF95D47F2B306DDA00515BB9 /* MyAccountVC.swift */,
+				CF95D4B12B30715900515BB9 /* AddInfoVC.swift */,
+				CFEE128E2B5691B100CB5BB8 /* QRCodeVC.swift */,
+				CFE7B0342C09F7DF00BB3550 /* RewardsVC.swift */,
+				CF95D4B62B3075E100515BB9 /* RatingDetailVC.swift */,
+				CF95D4812B306E3900515BB9 /* InviteFriendVC.swift */,
+				CF4ED35C2B2C252400922F7B /* EarningVC.swift */,
+				CF95D4832B306E6B00515BB9 /* ContactUsVC.swift */,
+				CF95D4852B306EDC00515BB9 /* ChangePasswordVC.swift */,
+				CFACA2422B79E46B00DEBEEB /* VehiclePreferenceVC.swift */,
+				CF95D4872B306EFD00515BB9 /* NotificationVC.swift */,
+				CF95D4892B306F1600515BB9 /* PrivacyPolicyVC.swift */,
+				CF95D48B2B306F1D00515BB9 /* Term&ConditionVC.swift */,
+				CF95D4912B30702800515BB9 /* EditProfileVC.swift */,
+				CF15E6AC2DACD59400BBBF1D /* DriverCarsVC.swift */,
+				CF15E6AE2DACD6C200BBBF1D /* AddDriverCarsVC.swift */,
+				CFAEB3882DACF30D005176B4 /* UploadVehcileImgVC.swift */,
+				CFE4CC2D2DAD0E4B00135F1E /* DriverVehicleDetailVC.swift */,
+			);
+			path = LeftMenuController;
+			sourceTree = "<group>";
+		};
+		CF95D4952B30706B00515BB9 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D4A12B3070BB00515BB9 /* LeftMenuCell.swift */,
+				CF95D4A22B3070BC00515BB9 /* LeftMenuCell.xib */,
+			);
+			path = LeftMenu;
+			sourceTree = "<group>";
+		};
+		CF95D4962B30707200515BB9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D4972B30707800515BB9 /* RightChat */,
+				CF95D4982B30708000515BB9 /* LeftChat */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		CF95D4972B30707800515BB9 /* RightChat */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D49D2B3070AD00515BB9 /* RightCell.swift */,
+				CF95D49E2B3070AD00515BB9 /* RightCell.xib */,
+			);
+			path = RightChat;
+			sourceTree = "<group>";
+		};
+		CF95D4982B30708000515BB9 /* LeftChat */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D49A2B3070A300515BB9 /* LeftCell.swift */,
+				CF95D4992B3070A300515BB9 /* LeftCell.xib */,
+			);
+			path = LeftChat;
+			sourceTree = "<group>";
+		};
+		CF95D4A52B3070CC00515BB9 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D4A62B3070DC00515BB9 /* HistoryCell.swift */,
+				CF95D4A72B3070DC00515BB9 /* HistoryCell.xib */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		CF95D4AA2B3070E200515BB9 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D4AB2B3070F100515BB9 /* NotificationCell.swift */,
+				CF95D4AC2B3070F100515BB9 /* NotificationCell.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		CF95D4B82B30761200515BB9 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				CF95D4B92B30762400515BB9 /* RatingDetailCell.swift */,
+				CF95D4BA2B30762500515BB9 /* RatingDetailCell.xib */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
+		CFA8F5262B495B220079D94C /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8F52C2B495B8F0079D94C /* ScheduleCell.swift */,
+				CFA8F52B2B495B8E0079D94C /* ScheduleCell.xib */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		CFA932922B79FA710080781D /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				CFA932932B79FA940080781D /* PreferenceCell.swift */,
+				CFA932942B79FA940080781D /* PreferenceCell.xib */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		CFAB3C6B2B2B2EF500EE1014 /* Primary */ = {
+			isa = PBXGroup;
+			children = (
+				CF310BBB2B2B184C0079C734 /* WelcomeVC.swift */,
+				CF310BC42B2B1BBB0079C734 /* LoginVC.swift */,
+				CF310C1B2B2B26BE0079C734 /* ForgotPasswordVC.swift */,
+				CFAB3C672B2B28DB00EE1014 /* SignUpVC.swift */,
+				CFAB3C692B2B2A2D00EE1014 /* OtpVC.swift */,
+			);
+			path = Primary;
+			sourceTree = "<group>";
+		};
+		CFAB3C6C2B2B2F0100EE1014 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CF15E6AB2DACD4DF00BBBF1D /* HomeActivities */,
+				CF95D47C2B306BE400515BB9 /* LeftMenuController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CFC29CD32D098F6200502FA8 /* UserStop */ = {
+			isa = PBXGroup;
+			children = (
+				CFC29CD42D098F8200502FA8 /* UserStopCell.swift */,
+				CFC29CD52D098F8200502FA8 /* UserStopCell.xib */,
+			);
+			path = UserStop;
+			sourceTree = "<group>";
+		};
+		CFE4CC262DACFEB700135F1E /* Saved Car */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4CC272DACFED500135F1E /* SavedCarCell.swift */,
+				CFE4CC282DACFED500135F1E /* SavedCarCell.xib */,
+			);
+			path = "Saved Car";
+			sourceTree = "<group>";
+		};
+		CFE4CC2F2DAD0EC800135F1E /* VehicelImages */ = {
+			isa = PBXGroup;
+			children = (
+				CFE4CC302DAD0EE200135F1E /* VehicleImgCell.swift */,
+				CFE4CC312DAD0EE200135F1E /* VehicleImgCell.xib */,
+			);
+			path = VehicelImages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +839,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF310BA82B2AFE460079C734 /* Build configuration list for PBXNativeTarget "Luxy Driver" */;
 			buildPhases = (
+				4EA497C7283D9458BE131821 /* [CP] Check Pods Manifest.lock */,
+				CF310BB82B2B13770079C734 /* ShellScript */,
 				CF310B7A2B2AFE440079C734 /* Sources */,
 				CF310B7B2B2AFE440079C734 /* Frameworks */,
 				CF310B7C2B2AFE440079C734 /* Resources */,
+				EBC2F60B45A985143E077DD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +859,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF310BAB2B2AFE460079C734 /* Build configuration list for PBXNativeTarget "Luxy DriverTests" */;
 			buildPhases = (
+				A0F4DF793B76882970D2D31A /* [CP] Check Pods Manifest.lock */,
 				CF310B902B2AFE460079C734 /* Sources */,
 				CF310B912B2AFE460079C734 /* Frameworks */,
 				CF310B922B2AFE460079C734 /* Resources */,
@@ -169,9 +878,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF310BAE2B2AFE460079C734 /* Build configuration list for PBXNativeTarget "Luxy DriverUITests" */;
 			buildPhases = (
+				79B712D86C06BE539C11FCD2 /* [CP] Check Pods Manifest.lock */,
 				CF310B9A2B2AFE460079C734 /* Sources */,
 				CF310B9B2B2AFE460079C734 /* Frameworks */,
 				CF310B9C2B2AFE460079C734 /* Resources */,
+				D564DD10BDE6C8176E4ADBBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +906,7 @@
 				TargetAttributes = {
 					CF310B7D2B2AFE440079C734 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					CF310B932B2AFE460079C734 = {
 						CreatedOnToolsVersion = 15.0;
@@ -231,9 +943,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A8E4482D4A287300BA56BD /* booking_sound_file.mpeg in Resources */,
+				CF95D4AE2B3070F100515BB9 /* NotificationCell.xib in Resources */,
+				A5A8E44A2D4A2B8C00BA56BD /* text_sound_file.mpeg in Resources */,
+				CF95D4BC2B30762500515BB9 /* RatingDetailCell.xib in Resources */,
+				CFA932962B79FA940080781D /* PreferenceCell.xib in Resources */,
+				CF95D4A92B3070DC00515BB9 /* HistoryCell.xib in Resources */,
+				CFE4CC2A2DACFED500135F1E /* SavedCarCell.xib in Resources */,
+				CFA8F52D2B495B8F0079D94C /* ScheduleCell.xib in Resources */,
+				CFE4CC332DAD0EE200135F1E /* VehicleImgCell.xib in Resources */,
+				CFC29CD62D098F8200502FA8 /* UserStopCell.xib in Resources */,
+				CF310BC32B2B1A8B0079C734 /* WelcomeCell.xib in Resources */,
+				CF6F62ED2D0B164D00D809C5 /* ReasonListCell.xib in Resources */,
+				CF95D49B2B3070A400515BB9 /* LeftCell.xib in Resources */,
 				CF310B8E2B2AFE460079C734 /* LaunchScreen.storyboard in Resources */,
+				CF95D4A42B3070BC00515BB9 /* LeftMenuCell.xib in Resources */,
 				CF310B8B2B2AFE460079C734 /* Assets.xcassets in Resources */,
+				CFA957762D30FA1B00E3F574 /* GoogleService-Info.plist in Resources */,
+				CF95D4A02B3070AD00515BB9 /* RightCell.xib in Resources */,
 				CF310B892B2AFE440079C734 /* Main.storyboard in Resources */,
+				CF95D4732B3064B700515BB9 /* NewRequestCell.xib in Resources */,
+				CF4ED3622B2C27B500922F7B /* EarningCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +983,249 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EA497C7283D9458BE131821 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Luxy Driver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B712D86C06BE539C11FCD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Luxy Driver-Luxy DriverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F4DF793B76882970D2D31A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Luxy DriverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF310BB82B2B13770079C734 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		D564DD10BDE6C8176E4ADBBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Luxy Driver-Luxy DriverUITests/Pods-Luxy Driver-Luxy DriverUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Luxy Driver-Luxy DriverUITests/Pods-Luxy Driver-Luxy DriverUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Luxy Driver-Luxy DriverUITests/Pods-Luxy Driver-Luxy DriverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC2F60B45A985143E077DD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Luxy Driver/Pods-Luxy Driver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Luxy Driver/Pods-Luxy Driver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Luxy Driver/Pods-Luxy Driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF310B7A2B2AFE440079C734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF310B862B2AFE440079C734 /* ViewController.swift in Sources */,
+				CFE4CC2E2DAD0E4B00135F1E /* DriverVehicleDetailVC.swift in Sources */,
+				CF841EF32D27EBB30056EFA5 /* RequestDetail.swift in Sources */,
+				CF310C0B2B2B25180079C734 /* AddChat.swift in Sources */,
+				CF310C112B2B25180079C734 /* AccountDelete.swift in Sources */,
 				CF310B822B2AFE440079C734 /* AppDelegate.swift in Sources */,
-				CF310B842B2AFE440079C734 /* SceneDelegate.swift in Sources */,
+				CF310C102B2B25180079C734 /* Rating.swift in Sources */,
+				CFC122652C0D8B1800628430 /* UIView.swift in Sources */,
+				CF95D4AD2B3070F100515BB9 /* NotificationCell.swift in Sources */,
+				CF95D4B02B30713500515BB9 /* BankDetailVC.swift in Sources */,
+				CF4ED3612B2C27B500922F7B /* EarningCell.swift in Sources */,
+				CF310C052B2B25180079C734 /* Policies.swift in Sources */,
+				CF310C0C2B2B25180079C734 /* AddRequest.swift in Sources */,
+				CF95D4BB2B30762500515BB9 /* RatingDetailCell.swift in Sources */,
+				CF95D48E2B306FB600515BB9 /* HistoryVC.swift in Sources */,
+				CFE7B0352C09F7DF00BB3550 /* RewardsVC.swift in Sources */,
+				CFBE29792D0AE0F4008C1874 /* UpdateLocation.swift in Sources */,
+				CF310BE42B2B24E20079C734 /* LocationManager.swift in Sources */,
+				CF310BDA2B2B24710079C734 /* Service.swift in Sources */,
+				CF310C172B2B25180079C734 /* Chat.swift in Sources */,
+				CFE4CC292DACFED500135F1E /* SavedCarCell.swift in Sources */,
+				CF310BD92B2B24710079C734 /* Switcher.swift in Sources */,
+				CF95D49F2B3070AD00515BB9 /* RightCell.swift in Sources */,
+				CFA8F52E2B495B8F0079D94C /* ScheduleCell.swift in Sources */,
+				CF310BD62B2B24710079C734 /* Utility.swift in Sources */,
+				CF310BD72B2B24710079C734 /* Navigation+Extension.swift in Sources */,
+				CF95D47B2B306B3400515BB9 /* RatingVC.swift in Sources */,
+				CFACA2432B79E46B00DEBEEB /* VehiclePreferenceVC.swift in Sources */,
+				CF310C192B2B25180079C734 /* PendingRequest.swift in Sources */,
+				CF26DF432D08758900500863 /* MTSlideToOpenView.swift in Sources */,
+				CF95D4942B30703D00515BB9 /* WithdrawAmountVC.swift in Sources */,
+				CFCA4C2B2C11EEAE00E25E74 /*  MapViewDetegate.swift in Sources */,
+				CFC29CD92D09CA8F00502FA8 /* CicularProgressBar.swift in Sources */,
+				CF310BD82B2B24710079C734 /* CustomPoint.swift in Sources */,
+				CF15E6AD2DACD59400BBBF1D /* DriverCarsVC.swift in Sources */,
+				CF310C1C2B2B26BE0079C734 /* ForgotPasswordVC.swift in Sources */,
+				CF310C122B2B25180079C734 /* CancelRequest.swift in Sources */,
+				CF310BE12B2B248E0079C734 /* MBProgressHUD.m in Sources */,
+				CFE4CC322DAD0EE200135F1E /* VehicleImgCell.swift in Sources */,
+				CFA932952B79FA940080781D /* PreferenceCell.swift in Sources */,
+				CF310C152B2B25180079C734 /* Login.swift in Sources */,
+				CF6F62EE2D0B164D00D809C5 /* ReasonListCell.swift in Sources */,
+				CF310C182B2B25180079C734 /* ActiveRequest.swift in Sources */,
+				CFC29CD72D098F8200502FA8 /* UserStopCell.swift in Sources */,
+				CFCA4C2D2C11F31100E25E74 /* MapRoute.swift in Sources */,
+				CF310C062B2B25180079C734 /* WalletAmount.swift in Sources */,
+				CF95D4B52B30730A00515BB9 /* ScheduleVC.swift in Sources */,
+				CF95D4862B306EDC00515BB9 /* ChangePasswordVC.swift in Sources */,
+				CF310BDB2B2B24710079C734 /* CameraHandler.swift in Sources */,
+				CFEE128F2B5691B100CB5BB8 /* QRCodeVC.swift in Sources */,
+				CF95D4922B30702800515BB9 /* EditProfileVC.swift in Sources */,
+				CF310BE82B2B24F00079C734 /* Variable.swift in Sources */,
+				CF2847AA2DAD1C0F009D4426 /* Make.swift in Sources */,
+				CF310BC52B2B1BBB0079C734 /* LoginVC.swift in Sources */,
+				CF310BEC2B2B24FE0079C734 /* Api.swift in Sources */,
+				CF310BEB2B2B24FE0079C734 /* Router.swift in Sources */,
+				CF0617E02B765D53005CACB6 /* Stop.swift in Sources */,
+				CF95D4792B306B0A00515BB9 /* ChatVC.swift in Sources */,
+				CF310C1A2B2B25180079C734 /* DriverStatus.swift in Sources */,
+				CF310BE72B2B24F00079C734 /* Constant.swift in Sources */,
+				CF95D4882B306EFD00515BB9 /* NotificationVC.swift in Sources */,
+				CF310C0F2B2B25180079C734 /* Profile.swift in Sources */,
+				CFAAC8B42D3A9A80004514F7 /* SayThankMessage.swift in Sources */,
+				CF8FD97B2DAFC65500C07DF6 /* CarModelVehicke.swift in Sources */,
+				CF6F62E92D0B14EC00D809C5 /* ReasonList.swift in Sources */,
+				CF95D4822B306E3900515BB9 /* InviteFriendVC.swift in Sources */,
+				CFAB3C682B2B28DC00EE1014 /* SignUpVC.swift in Sources */,
+				CF67E3A32D2BD54A0076BE22 /* R.generated.swift in Sources */,
+				CFACCEB92C1310F200F2279E /* RequestTime.swift in Sources */,
+				CFB7DA932DAF7CAE00780E4A /* AddDriverVehicle.swift in Sources */,
+				CF310BE22B2B248E0079C734 /* Reachability.m in Sources */,
+				CF310C0E2B2B25180079C734 /* AcceptNewRequest.swift in Sources */,
+				CF95D49C2B3070A400515BB9 /* LeftCell.swift in Sources */,
+				CFE4CC2C2DAD025C00135F1E /* DriverVehicleList.swift in Sources */,
+				CF95D4722B3064B700515BB9 /* NewRequestCell.swift in Sources */,
+				CFAB3C6E2B2B2F1B00EE1014 /* HomeVC.swift in Sources */,
+				CF6F62E72D0B0C6E00D809C5 /* PresentCancelReasonVC.swift in Sources */,
+				CF15E6AF2DACD6C200BBBF1D /* AddDriverCarsVC.swift in Sources */,
+				CF95D4752B306A3D00515BB9 /* ArrivedVC.swift in Sources */,
+				CF310C0D2B2B25180079C734 /* ForgotPassword.swift in Sources */,
+				CF310BC22B2B1A8B0079C734 /* WelcomeCell.swift in Sources */,
+				CF95D4902B30700800515BB9 /* WalletVC.swift in Sources */,
+				CF841EF12D27E9F20056EFA5 /* RideDetailVC.swift in Sources */,
+				CFDD1D372B4D491100E77671 /* ScheduleDetailVC.swift in Sources */,
+				CF2847AC2DAD1CF4009D4426 /* CarModel.swift in Sources */,
+				CF310BBC2B2B184D0079C734 /* WelcomeVC.swift in Sources */,
+				CFE662812C0B1CEB002C4A4F /* DriverEarnings.swift in Sources */,
+				CF2847AE2DAD1DB2009D4426 /* CarColor.swift in Sources */,
+				CF310C162B2B25180079C734 /* SignUp.swift in Sources */,
+				CF95D48A2B306F1600515BB9 /* PrivacyPolicyVC.swift in Sources */,
+				CF95D47E2B306C1300515BB9 /* LeftMenuVC.swift in Sources */,
+				CF310C042B2B25180079C734 /* Basic.swift in Sources */,
+				CFF24DE62D1EE94800C4E420 /* FareAmountCalculation.swift in Sources */,
+				CFAB3C6A2B2B2A2D00EE1014 /* OtpVC.swift in Sources */,
+				CF4ED35D2B2C252400922F7B /* EarningVC.swift in Sources */,
+				CF310C082B2B25180079C734 /* UpdateProfile.swift in Sources */,
+				CF310C092B2B25180079C734 /* Otp.swift in Sources */,
+				CFED4B3E2D39033300C86B71 /* userSelectedAmt.swift in Sources */,
+				CF95D4B22B30715900515BB9 /* AddInfoVC.swift in Sources */,
+				CFE6627F2C0AFC98002C4A4F /* UserLevel.swift in Sources */,
+				CFBE297B2D0B07CD008C1874 /* PresentCancelVC.swift in Sources */,
+				CF95D4802B306DDA00515BB9 /* MyAccountVC.swift in Sources */,
+				CF95D4A32B3070BC00515BB9 /* LeftMenuCell.swift in Sources */,
+				CF310C0A2B2B25180079C734 /* Notification.swift in Sources */,
+				CF310BD42B2B24710079C734 /* InternatUtility.swift in Sources */,
+				CF310C132B2B25180079C734 /* History.swift in Sources */,
+				CF9E83022D23D67800DB1AC4 /* GradiantView.swift in Sources */,
+				CFA8F5252B495A5E0079D94C /* Schedule.swift in Sources */,
+				CF95D4772B306A6B00515BB9 /* GradiantPath.swift in Sources */,
+				CFAEB3892DACF30D005176B4 /* UploadVehcileImgVC.swift in Sources */,
+				CF95D4A82B3070DC00515BB9 /* HistoryCell.swift in Sources */,
+				CF310C142B2B25180079C734 /* Complaint.swift in Sources */,
+				CF310BD52B2B24710079C734 /* Extension.swift in Sources */,
+				CF95D48C2B306F1D00515BB9 /* Term&ConditionVC.swift in Sources */,
+				CF95D4B72B3075E100515BB9 /* RatingDetailVC.swift in Sources */,
+				CF310C072B2B25180079C734 /* VehicleList.swift in Sources */,
+				CF95D4842B306E6B00515BB9 /* ContactUsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,62 +1402,100 @@
 		};
 		CF310BA92B2AFE460079C734 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55E599ED87031A32251B151 /* Pods-Luxy Driver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Luxy Driver/Luxy Driver.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5TLAY9535B;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 34HHAV7F7H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Luxy Driver/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This allow us to access your camera to update your profile picture";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Luxy requires constant access to your phone’s location to notify to user.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Luxy requires constant access to your phone’s location to notify to user.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This allow us to access your gallary to update your profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Techimmense.Luxy-Driver";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Main.LuxyDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = LuxyDriverDev;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Luxy Driver/Component/ThirdPartyLibrary/Luxy Driver-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CF310BAA2B2AFE460079C734 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0910FDFBD4D71AF8019886A2 /* Pods-Luxy Driver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Luxy Driver/Luxy Driver.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5TLAY9535B;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 34HHAV7F7H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Luxy Driver/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This allow us to access your camera to update your profile picture";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Luxy requires constant access to your phone’s location to notify to user.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Luxy requires constant access to your phone’s location to notify to user.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This allow us to access your gallary to update your profile picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Techimmense.Luxy-Driver";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Main.LuxyDriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = LuxyDriverDev;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Luxy Driver/Component/ThirdPartyLibrary/Luxy Driver-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CF310BAC2B2AFE460079C734 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976387D9ED04C7EDBD05FE7A /* Pods-Luxy DriverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +1516,7 @@
 		};
 		CF310BAD2B2AFE460079C734 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F692A6CFD72CC30E62BBF1F6 /* Pods-Luxy DriverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +1537,7 @@
 		};
 		CF310BAF2B2AFE460079C734 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208529CFC3EBA1EDFD99CF9C /* Pods-Luxy Driver-Luxy DriverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +1556,7 @@
 		};
 		CF310BB02B2AFE460079C734 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BE37DA735AEDCB7A5643C2 /* Pods-Luxy Driver-Luxy DriverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
